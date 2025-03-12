@@ -12,13 +12,13 @@ This project utilizes tools which are capable of receiving data on satellite-spe
 
 ## Resources
 ### Hardware
-RTL-SDR Blog V4 Dongle + Dipole Antenna
-A device running Linux (Mint)
+* RTL-SDR Blog V4 Dongle + Dipole Antenna
+* A device running Linux (Mint)
 
 ### Software
-GQRX
-SatDump
+* GQRX
+* SatDump
 
 ### Acknowledgements
-N2YO
-Saveitforparts
+* N2YO
+* Saveitforparts
