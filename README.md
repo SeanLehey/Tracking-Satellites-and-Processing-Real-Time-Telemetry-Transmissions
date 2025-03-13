@@ -37,7 +37,7 @@ Navigating to _10-day Predictions_ yields a chronological list of expected passe
 
 ![NOAA19TenDay](https://github.com/user-attachments/assets/b33d98a7-cb17-41b8-acd9-32291ed30664)
 
-The closer the _El_ value is to 90, the more directly overhead the satellite will be at its max elevation during the pass. This lowers the chance of obstruction from objects like trees and buildings. Scrolling down the page, we've found and clicked into an ideal pass at 86 degrees:
+The closer the _El_ value is to 90, the more directly overhead the satellite will be at its maximum elevation during the pass. This lowers the chance of obstruction from objects like trees and buildings. Scrolling down the page, we've found and clicked into an ideal pass at 86 degrees:
 
 ![NOAA19PassData](https://github.com/user-attachments/assets/91057004-433c-44b2-81f8-0a6ff6df4489)
 
