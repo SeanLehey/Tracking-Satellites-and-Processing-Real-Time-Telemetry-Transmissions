@@ -12,7 +12,7 @@ This project utilizes tools which are capable of receiving data on satellite-spe
 
 ## Resources
 ### Hardware
-* RTL-SDR Blog V4 Dongle + Dipole Antenna
+* RTL-SDR Blog V3 Dongle + Dipole Antenna
 * A device running Linux (Mint)
 
 ### Software
@@ -20,5 +20,5 @@ This project utilizes tools which are capable of receiving data on satellite-spe
 * SatDump
 
 ### Acknowledgements
-* N2YO
-* Saveitforparts
+* [Saveitforparts - How To Get Live Satellite Images Directly From Space](https://www.youtube.com/watch?v=icADyjm3PBE)
+* [N2YO](https://www.n2yo.com)
