@@ -71,7 +71,26 @@ GQRX is an open-source SDR tool used for capturing radio signals. This tool will
 
 Ideally, passes should be captured outside in wide-open areas as high as possible. Signal absorption, reflection, and interference can be mitigated by avoiding trees, buildings, and strong RF devices near your capture area.
 
-Below is a video capture of the GQRX waterfall when tuned to NOAA 19's downlink frequency of approximately 137.100MHz (be sure to enable audio!):
+Below is a video capture of the GQRX waterfall when tuned to NOAA 19's downlink frequency of approximately 137.100 MHz (be sure to enable audio!):
 
 https://github.com/user-attachments/assets/d6edcdc3-7e05-4eec-9e44-b56e50f7b4f2
 
+As you can hear in the above video snippet, the telemetry is coming through loud and clear as a rhythmic pulsing and clicking noise. This is the encoded data that we need to record and eventually process with SatDump.
+
+Here's a quick breakdown of the UI elements for the above video:
+
+### Downlink Frequency
+
+According to N2YO, the downlink frequency for NOAA 19 is 137.100 MHz. This can be configured at the top-left portion of the GQRX interface by typing in the desired frequency value.
+
+### Telemetry Data
+
+On the right side of the waterfall, you'll notice a distinct, consistently-formed yellow pattern. This is the frequency range we are monitoring with our filter (the grey rectangle with a red center line above the telemetry data). The video snippet above is from when the satellite was directly overhead and providing us with the clearest possible signal. You can expect the signal strength and quality to degrade as the satellite nears the end of its pass.
+
+### Squelch
+
+Adjusting the squelch value on the right side helps filter out white noise when attempting to zero in on our desired radio signal. The default value for GQRX is around -150.0 dB, but we've raised it to -67.0 dB for more ideal signal-to-noise ratio. 
+
+## Decoding the Telemetry Data into Weather Images
+
+Now that we've recorded the audio of our satellite's telemetry broadcast, we can convert that into a human-interpretable image using tools like SatDump. 
