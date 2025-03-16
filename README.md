@@ -7,7 +7,7 @@ This project is intended to outline how to track satellites, receive their live 
 
 
 ## Disclaimer
-This project utilizes tools which are capable of receiving data on satellite-specific radio frequencies. At no point should any attempt be made to transmit on any radio frequency without proper licensing. To reiterate: this project is limited to RECEIVE-ONLY.
+This project utilizes tools which are capable of receiving data on satellite-specific radio frequencies. At no point should any attempt be made to transmit on any radio frequency without proper licensing. To reiterate: this project is limited to RECEIVE-only.
 
 
 ## Resources
