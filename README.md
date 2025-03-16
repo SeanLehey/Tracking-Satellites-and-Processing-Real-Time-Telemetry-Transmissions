@@ -89,8 +89,13 @@ On the right side of the waterfall, you'll notice a distinct, consistently-forme
 
 ### Squelch
 
-Adjusting the squelch value on the right side helps filter out white noise when attempting to zero in on our desired radio signal. The default value for GQRX is around -150.0 dB, but we've raised it to -67.0 dB for more ideal signal-to-noise ratio. 
+Adjusting the squelch value on the right side helps filter out white noise when attempting to zero in on our desired radio signal. The default value for GQRX is around -150.0 dB, but we've raised it to -67.0 dB for a more ideal signal-to-noise ratio. 
 
 ## Decoding the Telemetry Data into Weather Images
 
 Now that we've recorded the audio of our satellite's telemetry broadcast, we can convert that into a human-interpretable image using tools like SatDump. 
+
+![SatDumpConfig](https://github.com/user-attachments/assets/d4ab182a-b276-40e4-8d77-f3a5cd76a758)
+
+While you can record directly via GQRX in baseband format, I... forgot, but luckily recorded the audio of the pass via OBS. I trimmed and resampled the audio to better accommodate SatDump's decoder, and utilized the settings seen above.
+
