@@ -97,5 +97,18 @@ Now that we've recorded the audio of our satellite's telemetry broadcast, we can
 
 ![SatDumpConfig](https://github.com/user-attachments/assets/d4ab182a-b276-40e4-8d77-f3a5cd76a758)
 
-While you can record directly via GQRX in baseband format, I... forgot, but luckily recorded the audio of the pass via OBS. I trimmed and resampled the audio to better accommodate SatDump's decoder, and utilized the settings seen above.
+While you can record directly via GQRX in baseband format, I recorded the audio of the pass via OBS in .wav format. I trimmed and resampled the audio to better accommodate SatDump's decoder, and utilized the settings seen above.
 
+Upon clicking _Start_, the decoding process will begin:
+
+![SatDumpDecoding](https://github.com/user-attachments/assets/6100f0b3-076a-4039-8347-6b2e79b23beb)
+
+The images will then be piped to the output folder specified in the configuration menu. Here, you can view the decoded images in a variety of formats:
+
+![APT-A](https://github.com/user-attachments/assets/7162b8dc-f07d-4780-8f9f-7734e3b7670e)
+
+![avhrr_3_rgb_10 8um_Thermal_IR](https://github.com/user-attachments/assets/77d0317d-12d4-4463-ac98-c36faa34c9d1)
+
+![avhrr_3_rgb_MCIR_Rain_(Uncalibrated)](https://github.com/user-attachments/assets/5196362c-bf2a-4864-9bd4-91993defa648)
+
+I initially struggled with implementing a map overlay and that was likely due to not capturing the proper audio channel (the incoming telemetry signal is composed of a handful of separate tiny audio channels emitted concurrently). The channel I likely missed was responsible for timestamping as that is crucial for properly implementing a terrain/border overlay.
