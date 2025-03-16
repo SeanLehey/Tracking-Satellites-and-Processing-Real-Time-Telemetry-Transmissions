@@ -112,3 +112,9 @@ The images will then be piped to the output folder specified in the configuratio
 ![avhrr_3_rgb_MCIR_Rain_(Uncalibrated)](https://github.com/user-attachments/assets/5196362c-bf2a-4864-9bd4-91993defa648)
 
 I initially struggled with implementing a map overlay and that was likely due to not capturing the proper audio channel (the incoming telemetry signal is composed of a handful of separate tiny audio channels emitted concurrently). The channel I likely missed was responsible for timestamping as that is crucial for properly implementing a terrain/border overlay.
+
+## Final Thoughts
+
+While I wouldn't call this a resounding success due to the lack of natural color output and map overlays, I'm satisfied with the results. This was my fifth solid attempt at capturing a quality audio signal from a NOAA 19 pass using a simple dipole antenna. For future projects, I think I'll stick to SatDump for both recording and processing, as SatDump's recording feature is supposed to be more well integrated and intuitive. 
+
+I also plan on building a quadrifilar helix antenna, which is an omnidirectional antenna that doesn't have to be oriented towards the satellite as it makes its pass overhead. This reduces potential for user error (my arm is not a very stable tracking mount!), and should result in clearer captures. But for now, I think this project is a good foundation for moving onto more complex approaches to satellite communications. I hope you enjoyed it!
