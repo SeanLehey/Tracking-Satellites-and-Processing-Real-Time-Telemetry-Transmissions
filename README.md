@@ -35,7 +35,7 @@ The `rtl-sdr` package can be installed via `apt-get` or through the Synaptic Pac
 
 ![RTLSDR Driver Download](https://github.com/user-attachments/assets/0efd7bbe-cb07-4643-aa23-8014ffd3a3a5)
 
-Once this package and its dependencies are installed, install the following programs:
+Once the driver and its dependencies are installed, install the following programs:
 
 * [GQRX](https://github.com/gqrx-sdr/gqrx/releases)
 * [SatDump](https://www.satdump.org/download/)
