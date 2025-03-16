@@ -20,8 +20,26 @@ This project utilizes tools which are capable of receiving data on satellite-spe
 * SatDump
 
 ### Acknowledgements
+
+This project was inspired and aided by the following resources:
+
 * [Saveitforparts - How To Get Live Satellite Images Directly From Space](https://www.youtube.com/watch?v=icADyjm3PBE)
+* [Ken's RTL-SDR for Linux Quick-Start Guide](https://ranous.wordpress.com/rtl-sdr4linux/)
 * [N2YO](https://www.n2yo.com)
+
+## Initial Setup
+
+This project was created in Linux Mint, so the instructions will assume you're using a similar Ubuntu-based distro. We'll need a few tools before we can start.
+
+The `rtl-sdr` package can be installed via `apt-get` or through the Synaptic Package Manager GUI:
+
+![RTLSDR Driver Download](https://github.com/user-attachments/assets/0efd7bbe-cb07-4643-aa23-8014ffd3a3a5)
+
+Once this package and its dependencies are installed, install the following programs:
+
+* [GQRX](https://github.com/gqrx-sdr/gqrx/releases)
+* [SatDump](https://www.satdump.org/download/)
+
 
 ## Satellite Tracking with N2YO
 
