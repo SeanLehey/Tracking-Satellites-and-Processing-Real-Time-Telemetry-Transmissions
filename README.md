@@ -71,7 +71,7 @@ GQRX is an open-source SDR tool used for capturing radio signals. This tool will
 
 Ideally, passes should be captured outside in wide-open areas as high as possible. Signal absorption, reflection, and interference can be mitigated by avoiding trees, buildings, and strong RF devices near your capture area.
 
-Below is a video capture of the GQRX waterfall when tuned to NOAA 19's downlink frequency of approximately 137.100MHz:
+Below is a video capture of the GQRX waterfall when tuned to NOAA 19's downlink frequency of approximately 137.100MHz (be sure to enable audio!):
 
 https://github.com/user-attachments/assets/d6edcdc3-7e05-4eec-9e44-b56e50f7b4f2
 
